@@ -1,9 +1,9 @@
 export type Post = {
     id: string;
     title: string;
-    decsription: string;
+    description: string;
     content: string;
-    published?: boolean;
-    createdAt: string;
-    updatedAt: string;
+    published: boolean | null;
+    createdAt: Date;
+    updatedAt: Date;
 }
